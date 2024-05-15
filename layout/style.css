@@ -1,0 +1,80 @@
+body {
+    background-color: aqua;
+}
+
+
+.navBar {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 50px;
+
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+h1 {
+    margin: 16px 0px 16px 0px;
+}
+
+.menu ul li {
+
+    margin: 0px 10px 0px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+
+}
+
+#Heading {
+    text-align: center;
+}
+
+.images {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 300px;
+}
+
+.images .Material {
+
+    width: 20%;
+}
+
+#imag1 {
+    background-image: url(https://mcqquestions.net/static/images/q-%26-a.webp);
+    background-size: cover;
+    background-position: center;
+}
+
+#imag2 {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTndn6VS8cFnZquYdfNPsHyNZKvwwGcgmVn617zdtkjQ&s);
+    background-size: cover;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+
+}
+
+#imag3 {
+    background-image: url(https://img.freepik.com/premium-vector/quiz-logo-with-speech-bubble-symbols-concept-questionnaire-show-sing-quiz-button-question-competition-exam-interview-modern-emblem_180786-72.jpg);
+    background-size: cover;
+    background-position: center;
+    background-size: contain;
+}
+
+.blog{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
